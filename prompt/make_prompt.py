@@ -13,7 +13,7 @@ SYSTEM_PROMPT = f"""
     - Make the message easy to read.
     """
 
-USER_PROMPT = "Write email to contact with beauty influencer"
+USER_PROMPT = "Write email to contact with beauty influencer. Subject must be fixed like \"[company name] Gift for influencer !\" and there must be Subject."
 
 data = {
     "system_prompt": SYSTEM_PROMPT,
